@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import { SliderData } from "../Library/sliderdata";
+import { SliderData } from "../Library/SliderData";
 import { useState, useEffect } from "react";
 
 export const Imageslider = ({ slides }) => {
