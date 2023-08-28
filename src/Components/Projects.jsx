@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 export default function Projects() {
   return (
     <div className="projects">
@@ -16,7 +17,7 @@ export default function Projects() {
           </a>
         </li>
         <li>
-          <h3>This is Strangers Things</h3>
+          <h3>This is Stranger's Things</h3>
           <a href="https://vocal-zuccutto-ced39d.netlify.app">
             <img className="projects-images" src="Images/strangersThings.png" />
           </a>

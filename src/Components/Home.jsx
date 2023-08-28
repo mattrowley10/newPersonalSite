@@ -12,8 +12,7 @@ export default function Home() {
         <h2 className="usHeader">Developer</h2>
         <h2 className="usHeader">Herbalist</h2>
         <h2 className="usHeader">Musician</h2>
-      </div>
-      <div className="under-slide-body">
+
         <p className="home-body">
           Software development holds a bright future for itself, and for me as
           well. The ability to speak to a machine in multiple languages peaks my
