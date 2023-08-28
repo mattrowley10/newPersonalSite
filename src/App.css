@@ -52,7 +52,7 @@ a{
   justify-content: space-evenly;
   padding: 1rem;
   bottom: 0;
-  position: sticky;
+  position: absolute;
   border-radius:6px;
   z-index: 1;
   max-width: 100%;
