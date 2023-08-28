@@ -142,11 +142,11 @@ button:active{
 }
 .slide{
   opacity: 0;
-  transition-duration: 1s ease;
+  transition: 1s ease-in;
 }
 .slide.active {
-  opacity: 2;
-  transition-duration: 1s;
+  opacity: 1;
+  transition: 2.5s;
   transform: scale(1.08);
 }
 .slider {
