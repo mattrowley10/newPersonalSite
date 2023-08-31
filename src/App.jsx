@@ -1,7 +1,7 @@
 import "./App.css";
 import Navbar from "./Components/Navbar";
 import Home from "./Components/Home";
-import About from "./Components/About";
+// import About from "./Components/About";
 import Footer from "./Components/Footer";
 import Projects from "./Components/Projects";
 import Games from "./Components/Games";
@@ -16,7 +16,7 @@ function App() {
       </Navbar>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
+        {/* <Route path="/about" element={<About />} /> */}
         <Route path="/projects" element={<Projects />} />
         <Route path="/games" element={<Games />} />
         <Route path="/dropper" element={<DropDownNav />} />

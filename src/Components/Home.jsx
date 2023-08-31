@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div className="home">
       <figure className="figure">
-        <h1 className="home-header">Welcome Home</h1>
+        {/* <h1 className="home-header">Well met, traveler</h1> */}
         <Imageslider slides={SliderData} />
       </figure>
       <div className="under-slide">
@@ -38,6 +38,7 @@ export default function Home() {
           instruments I love, music continues to be a great teacher and outlet.
         </p>
       </div>
+      {/* <h2 className="about-header">About Me</h2> */}
     </div>
   );
 }

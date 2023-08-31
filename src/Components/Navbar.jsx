@@ -27,11 +27,11 @@ export default function Navbar() {
             Home
           </button>
         </li>
-        <li>
+        {/* <li>
           <button className="navlink" onClick={() => nav("/about")}>
             About
           </button>
-        </li>
+        </li> */}
         <li>
           <button
             className="navlink"
