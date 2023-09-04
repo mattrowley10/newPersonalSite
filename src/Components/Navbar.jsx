@@ -78,7 +78,7 @@ export default function Navbar() {
             Games <span />
             <BsFillArrowDownCircleFill />
             {overGames === true && (
-              <DropDownItems className="games-drop">
+              <DropDownItems>
                 <li className="list-item">
                   <a href="https://papaya-praline-b8ce49.netlify.app/">
                     TicTacToe
