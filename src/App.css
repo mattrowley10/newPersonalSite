@@ -149,8 +149,8 @@ button:active{
 .usHeader{
   text-decoration: underline;
   margin-bottom: 1rem;
-  
 }
+
 
 .home-body{
   margin-left: 2rem;
@@ -192,6 +192,8 @@ button:active{
   text-align: left;
   margin-left: 4rem;
   margin-bottom: 1rem;
+  /* transform: translateX(-5%);  */
+  /* opacity: 0; */
 }
 
 .about-body{
@@ -206,6 +208,13 @@ button:active{
   margin-right: 5rem;
   margin-bottom: 3.5rem;
   border-radius: 10px;
+  transform: translateX(50%);
+  opacity: 0;
+}
+.slide-in{
+  transform: translateX(0);
+  opacity: 1;
+  transition: .75s ease-in;
 }
 .projects{
   display: flex;

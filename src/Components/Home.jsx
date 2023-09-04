@@ -1,9 +1,25 @@
 import { SliderData } from "../Library/SliderData";
 import { Imageslider } from "./Imageslider";
+import useElement from "../hooks/useElement";
+import { useEffect } from "react";
 
 export default function Home() {
+  const [ref, isIntersecting] = useElement({
+    root: null,
+    rootMargin: "0px",
+    threshold: 0.5,
+  });
+  useEffect(() => {
+    if (isIntersecting) {
+      console.log(true);
+      ref.current.classList.add("slide-in");
+    } else {
+      ref.current.classList.remove("slide-in");
+    }
+  }, [ref, isIntersecting]);
+
   return (
-    <div className="home">
+    <main className="home">
       <figure className="figure">
         <h1 className="home-header">Welcome to my Portfolio</h1>
         <Imageslider slides={SliderData} />
@@ -48,8 +64,8 @@ export default function Home() {
           into the world of code, that is where I find myself any other time.
           And for such a simple life, I am grateful.
         </p>
-        <img className="about-image" src="Images/mattPic1.jpg" />
+        <img className="about-image" src="Images/mattPic1.jpg" ref={ref} />
       </div>
-    </div>
+    </main>
   );
 }

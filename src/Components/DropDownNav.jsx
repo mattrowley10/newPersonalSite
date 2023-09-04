@@ -23,9 +23,7 @@ export default function DropDownItems(props) {
   return (
     <div className="dropDown">
       <ul className="dropDown-list">
-        <li>
-          <a>{props.children}</a>
-        </li>
+        <li>{props.children}</li>
       </ul>
     </div>
   );
