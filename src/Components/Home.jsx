@@ -7,7 +7,7 @@ export default function Home() {
   const [ref, isIntersecting] = useElement({
     root: null,
     rootMargin: "0px",
-    threshold: 0.5,
+    threshold: 1,
   });
   useEffect(() => {
     if (isIntersecting) {
@@ -60,7 +60,7 @@ export default function Home() {
           Herbalist turned Web Developer with an earnest desire to help the
           world and continue learning as much as possible during the process. In
           my free time you might find me making tea and meditating, playing
-          video games, or wrestling (or cuddling) with my dog. Since delving
+          video games, or wrestling (and/or cuddling) with my dog. Since delving
           into the world of code, that is where I find myself any other time.
           And for such a simple life, I am grateful.
         </p>

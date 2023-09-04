@@ -157,11 +157,10 @@ button:active{
 }
 .slide{
   opacity: 0;
-  transition: 1s ease-in;
 }
 .slide.active {
-  opacity: .8;
-  transition: 2.5s;
+  opacity: 1;
+  transition: 1s ease-in;
   transform: scale(1.08);
 }
 .slider {
