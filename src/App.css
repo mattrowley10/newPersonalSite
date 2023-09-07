@@ -268,10 +268,25 @@ button:active{
   display: block;
   position: absolute;
 }
+
+@media (max-width: 900px){
+  .about{
+    display: block;
+  }
+  .about-image{
+    margin: 1rem 1rem;
+    width: 20rem;
+    height: 20rem;
+    transform: translateX (25%);
+  }
+}
+
 @media (max-width: 768px){
   .about{
+  display: block;
    margin: 1rem 0;
   }
+ 
   .navbar{
     flex-wrap: wrap;
   }
@@ -302,6 +317,10 @@ button:active{
   .about{
     margin: 1rem 0;
    }
+   .about-image{
+    width: 15rem;
+    height: 15rem;
+  }
    .navbar{
      flex-wrap: wrap;
    }
