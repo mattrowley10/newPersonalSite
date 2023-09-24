@@ -6,8 +6,8 @@ import { useEffect } from "react";
 export default function Home() {
   const [ref, isIntersecting] = useElement({
     root: null,
-    rootMargin: "0px",
-    threshold: 1,
+    rootMargin: "12px",
+    threshold: 0.75,
   });
   useEffect(() => {
     if (isIntersecting) {

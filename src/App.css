@@ -8,7 +8,7 @@
 
 .app, html{
   min-height: 100vh;
-  background-color: #FFF4E9;
+
 }
 
 a{
@@ -20,7 +20,7 @@ a{
 .navbar {
   display: flex;
   justify-content: space-between;
-  background-color: #7D8CA3;
+  background-color: #000;
   color: whitesmoke;
   padding: 1rem;
   position: sticky;
@@ -40,7 +40,7 @@ a{
   right: .75rem;
   color: black;
   transition: 1s ease-in;
-  background-color: #7D8CA3;
+  background-color: #000;
   border-bottom-left-radius: 7%;
   border-bottom-right-radius: 7%;
 }
@@ -49,7 +49,7 @@ a{
 }
 .footer {
   display: flex;
-  background-color: #7D8CA3;
+  background-color: #000;
   justify-content: space-evenly;
   padding: 4px;
   bottom: 0;
@@ -103,6 +103,7 @@ a{
   position: absolute;
   min-height: 50px;
   min-width: 5.25rem;;
+  
 }
 
 
@@ -110,19 +111,21 @@ button{
   cursor: pointer;
   padding: 10px;
   border-radius: 6px;
-  border-color: #7D8CA3;
+  border-color: white;
 
   transition: .5s ease-out;
   border-style: solid;
   text-align: left;
   overflow: visible;
+  
 }
+
 button:hover{
-  border-color: white;
-  transition: .3s ease-in;
+  border-color: black;
+  transition: .5s ease;
 }
 button:active{
-  border-color: blueviolet;
+  border-color: black;
 }
 
 .home{
