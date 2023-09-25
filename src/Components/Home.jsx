@@ -7,7 +7,7 @@ export default function Home() {
   const [ref, isIntersecting] = useElement({
     root: null,
     rootMargin: "12px",
-    threshold: 0.75,
+    threshold: 0.55,
   });
   useEffect(() => {
     if (isIntersecting) {
@@ -21,7 +21,7 @@ export default function Home() {
   return (
     <main className="home">
       <figure className="figure">
-        <h1 className="home-header">Welcome to my Portfolio</h1>
+        <h1 className="home-header">Matthew William Rowley</h1>
         <Imageslider slides={SliderData} />
       </figure>
       <div className="under-slide">

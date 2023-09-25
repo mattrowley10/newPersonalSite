@@ -19,7 +19,7 @@ a{
 
 .navbar {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   background-color: #000;
   color: whitesmoke;
   padding: 1rem;
@@ -93,6 +93,8 @@ a{
 .navlinks{
   display: flex;
   list-style: none;
+  
+  
 }
 
 .navlink{
@@ -132,12 +134,14 @@ button:active{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-top: 2rem;
+
   color:#8E4A49;
   min-height: 100vh;
 }
 .home-header{
+
   text-align: center;
+  margin-left: 2rem;
 }
 .under-slide{
   display: grid;
@@ -170,6 +174,7 @@ button:active{
   position:relative;
   height: 80vh;
   margin-bottom: 6rem;
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -178,8 +183,8 @@ button:active{
 }
 
 .image{
-  width: 560px;
-  height: 500px;
+  width: 520px;
+  height: 480px;
   border-radius: 10px;
 }
 .about{

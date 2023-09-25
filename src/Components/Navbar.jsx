@@ -18,9 +18,9 @@ export default function Navbar() {
 
   return (
     <div className="navbar">
-      <h2 className="nav-header" onClick={() => nav("/")}>
+      {/* <h2 className="nav-header" onClick={() => nav("/")}>
         Matthew William Rowley
-      </h2>
+      </h2> */}
       <ul className="navlinks">
         <li>
           <button className="navlink" onClick={() => nav("/")}>
