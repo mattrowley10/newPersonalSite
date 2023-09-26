@@ -5,8 +5,9 @@ const useElement = (options) => {
   const ref = useRef(null);
 
   const callBackFunction = (entries) => {
-    const [entry] = entries;
-    setIsIntersecting(entry.isIntersecting);
+    entries.forEach((entry) => {
+      setIsIntersecting(entry.isIntersecting);
+    });
   };
   useEffect(() => {
     const observer = new IntersectionObserver(callBackFunction, options);

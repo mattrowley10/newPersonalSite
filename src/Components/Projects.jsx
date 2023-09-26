@@ -11,8 +11,11 @@ export default function Projects() {
       <VerticalTimeline>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          contentStyle={{ background: "#7D8CA3", color: "#fff" }}
-          contentArrowStyle={{ borderRight: "7px solid  #7D8CA3" }}
+          contentStyle={{
+            background: "#f444",
+            color: "#fff",
+          }}
+          contentArrowStyle={{ borderRight: "7px solid  #f444" }}
         >
           <h3>This is my Capstone Project</h3>
           <a href="https://amca.onrender.com/">
@@ -21,8 +24,13 @@ export default function Projects() {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          contentStyle={{ background: "#7D8CA3", color: "#fff" }}
-          contentArrowStyle={{ borderRight: "7px solid  #7D8CA3" }}
+          contentStyle={{
+            background: "#f444",
+            color: "#fff",
+          }}
+          contentArrowStyle={{
+            borderRight: "7px solid  #f444",
+          }}
         >
           <h3>This is Puppy Bowl!</h3>
           <a href="https://rad-frangipane-ab7eaa.netlify.app">
@@ -31,8 +39,8 @@ export default function Projects() {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          contentStyle={{ background: "#7D8CA3", color: "#fff" }}
-          contentArrowStyle={{ borderRight: "7px solid  #7D8CA3" }}
+          contentStyle={{ background: "#f444", color: "#fff" }}
+          contentArrowStyle={{ borderRight: "7px solid  #f444" }}
         >
           <h3>This is Stranger's Things</h3>
           <a href="https://vocal-zuccutto-ced39d.netlify.app">
@@ -41,8 +49,8 @@ export default function Projects() {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          contentStyle={{ background: "#7D8CA3", color: "#fff" }}
-          contentArrowStyle={{ borderRight: "7px solid  #7D8CA3" }}
+          contentStyle={{ background: "#f444", color: "#fff" }}
+          contentArrowStyle={{ borderRight: "7px solid  #f444" }}
         >
           <h3>This is my first Personal Website</h3>
           <a href="https://fabulous-klepon-630ec6.netlify.app">

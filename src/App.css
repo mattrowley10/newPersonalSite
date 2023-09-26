@@ -139,9 +139,8 @@ button:active{
   min-height: 100vh;
 }
 .home-header{
-
+  color: #8E4A49;
   text-align: center;
-  margin-left: 2rem;
 }
 .under-slide{
   display: grid;
@@ -152,6 +151,13 @@ button:active{
   padding-right: 1rem;
   padding-bottom: 12rem;
   border-bottom: 3px solid #8E4A49;
+  color: #8E4A49;
+  opacity: 0;
+  transform: translateX(-100px);
+}
+.under-slide.active{
+  opacity: 1;
+  transform: translateX(0) ;
 }
 .usHeader{
   text-decoration: underline;
@@ -174,13 +180,14 @@ button:active{
   position:relative;
   height: 80vh;
   margin-bottom: 6rem;
-
   display: flex;
   justify-content: center;
   align-items: center;
   z-index: 0;
   border-bottom: 3px solid #8E4A49;
+
 }
+
 
 .image{
   width: 520px;
@@ -199,8 +206,7 @@ button:active{
   text-align: left;
   margin-left: 4rem;
   margin-bottom: 1rem;
-  /* transform: translateX(-5%);  */
-  /* opacity: 0; */
+  color:#8E4A49;
 }
 
 .about-body{
