@@ -142,6 +142,12 @@ button:active{
   color: #8E4A49;
   text-align: center;
 }
+.arrow{
+  color:#8E4A49;
+  position: relative;
+  bottom: 10rem;
+  left: 1rem;
+}
 .under-slide{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;

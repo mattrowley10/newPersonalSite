@@ -4,12 +4,13 @@ import useElement from "../hooks/useElement";
 import { useEffect, useRef } from "react";
 import { useInView } from "framer-motion";
 // import { motion } from "framer-motion";
+import { TfiAngleDoubleDown } from "react-icons/tfi";
 
 export default function Home() {
   const mainRef = useRef(null);
   const isInView = useInView(mainRef, {
     threshold: 1,
-    margin: "-200px",
+    margin: "-150px",
   });
   console.log(isInView);
   const [ref, isIntersecting] = useElement({
@@ -36,7 +37,9 @@ export default function Home() {
     <main>
       <figure className="figure">
         <h1 className="home-header">Matthew William Rowley</h1>
+
         <Imageslider slides={SliderData} />
+        <TfiAngleDoubleDown className="arrow" style={{ fontSize: "50px" }} />
       </figure>
       <div className="under-slide" ref={mainRef}>
         <h2
