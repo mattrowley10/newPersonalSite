@@ -193,11 +193,20 @@ button:active{
   border-bottom: 3px solid #8E4A49;
 
 }
+.home-image{
+  position: relative;
 
+  height: 80vh;
+  margin-bottom: 6rem;
+  border-bottom: 3px solid #8E4A49;
+  padding-bottom: 6rem;
+
+  border-radius: 10px;
+}
 
 .image{
-  width: 520px;
-  height: 480px;
+  width: 500px;
+  height: 500px;
   border-radius: 10px;
 }
 .about{
